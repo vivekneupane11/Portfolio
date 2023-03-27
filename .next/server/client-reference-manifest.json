@@ -103,6 +103,84 @@
         "name": "default",
         "async": false
       }
+    },
+    "(app-client)/./public/logo.png": {
+      "*": {
+        "id": "(sc_client)/./public/logo.png",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./public/logo.png",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./public/logo.png",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./src/ThemeProviders/index.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/ThemeProviders/index.tsx",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/ThemeProviders/index.tsx",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/ThemeProviders/index.tsx",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/components/Header/index.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/components/Header/index.tsx",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/components/Header/index.tsx",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/components/Header/index.tsx",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "default",
+        "async": false
+      }
     }
   },
   "__edge_ssr_module_mapping__": {},
@@ -299,6 +377,78 @@
     "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
     "chunks": [
       "app-client-internals:app-client-internals"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/vivek/Documents/Workspace/portfolio/public/logo.png": {
+    "id": "(app-client)/./public/logo.png",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/vivek/Documents/Workspace/portfolio/public/logo.png#": {
+    "id": "(app-client)/./public/logo.png",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/vivek/Documents/Workspace/portfolio/public/logo.png#default": {
+    "id": "(app-client)/./public/logo.png",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/vivek/Documents/Workspace/portfolio/src/ThemeProviders/index.tsx": {
+    "id": "(app-client)/./src/ThemeProviders/index.tsx",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/vivek/Documents/Workspace/portfolio/src/ThemeProviders/index.tsx#": {
+    "id": "(app-client)/./src/ThemeProviders/index.tsx",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/vivek/Documents/Workspace/portfolio/src/ThemeProviders/index.tsx#default": {
+    "id": "(app-client)/./src/ThemeProviders/index.tsx",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/vivek/Documents/Workspace/portfolio/src/app/components/Header/index.tsx": {
+    "id": "(app-client)/./src/app/components/Header/index.tsx",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/vivek/Documents/Workspace/portfolio/src/app/components/Header/index.tsx#": {
+    "id": "(app-client)/./src/app/components/Header/index.tsx",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/vivek/Documents/Workspace/portfolio/src/app/components/Header/index.tsx#default": {
+    "id": "(app-client)/./src/app/components/Header/index.tsx",
+    "chunks": [
+      "app/layout:app/layout"
     ],
     "name": "default",
     "async": false
