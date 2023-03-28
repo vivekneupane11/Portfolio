@@ -104,32 +104,6 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./public/logo.png": {
-      "*": {
-        "id": "(sc_client)/./public/logo.png",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "name": "*",
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/logo.png",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "name": "",
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/logo.png",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "name": "default",
-        "async": false
-      }
-    },
     "(app-client)/./src/ThemeProviders/index.tsx": {
       "*": {
         "id": "(sc_client)/./src/ThemeProviders/index.tsx",
@@ -155,37 +129,12 @@ self.__RSC_MANIFEST={
         "name": "default",
         "async": false
       }
-    },
-    "(app-client)/./src/app/components/Header/index.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/app/components/Header/index.tsx",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "name": "*",
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/app/components/Header/index.tsx",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "name": "",
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/app/components/Header/index.tsx",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "name": "default",
-        "async": false
-      }
     }
   },
   "__edge_ssr_module_mapping__": {},
   "__entry_css_files__": {
     "/Users/vivek/Documents/Workspace/portfolio/src/app/layout": [
+      "static/css/_app-client_node_modules_next_font_google_target_css_path_src_app_layout_tsx_import_Roboto_ar-83a30a.css",
       "static/css/_app-client_src_app_globals_css.css"
     ]
   },
@@ -381,30 +330,6 @@ self.__RSC_MANIFEST={
     "name": "default",
     "async": false
   },
-  "/Users/vivek/Documents/Workspace/portfolio/public/logo.png": {
-    "id": "(app-client)/./public/logo.png",
-    "chunks": [
-      "app/layout:app/layout"
-    ],
-    "name": "*",
-    "async": false
-  },
-  "/Users/vivek/Documents/Workspace/portfolio/public/logo.png#": {
-    "id": "(app-client)/./public/logo.png",
-    "chunks": [
-      "app/layout:app/layout"
-    ],
-    "name": "",
-    "async": false
-  },
-  "/Users/vivek/Documents/Workspace/portfolio/public/logo.png#default": {
-    "id": "(app-client)/./public/logo.png",
-    "chunks": [
-      "app/layout:app/layout"
-    ],
-    "name": "default",
-    "async": false
-  },
   "/Users/vivek/Documents/Workspace/portfolio/src/ThemeProviders/index.tsx": {
     "id": "(app-client)/./src/ThemeProviders/index.tsx",
     "chunks": [
@@ -429,35 +354,18 @@ self.__RSC_MANIFEST={
     "name": "default",
     "async": false
   },
-  "/Users/vivek/Documents/Workspace/portfolio/src/app/components/Header/index.tsx": {
-    "id": "(app-client)/./src/app/components/Header/index.tsx",
-    "chunks": [
-      "app/layout:app/layout"
-    ],
-    "name": "*",
-    "async": false
-  },
-  "/Users/vivek/Documents/Workspace/portfolio/src/app/components/Header/index.tsx#": {
-    "id": "(app-client)/./src/app/components/Header/index.tsx",
-    "chunks": [
-      "app/layout:app/layout"
-    ],
-    "name": "",
-    "async": false
-  },
-  "/Users/vivek/Documents/Workspace/portfolio/src/app/components/Header/index.tsx#default": {
-    "id": "(app-client)/./src/app/components/Header/index.tsx",
-    "chunks": [
-      "app/layout:app/layout"
-    ],
-    "name": "default",
-    "async": false
-  },
   "/Users/vivek/Documents/Workspace/portfolio/src/app/globals.css#": {
     "id": "null",
     "name": "",
     "chunks": [
       "static/css/_app-client_src_app_globals_css.css"
+    ]
+  },
+  "/Users/vivek/Documents/Workspace/portfolio/node_modules/@next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Roboto\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"400\",\"700\"]}],\"variableName\":\"roboto\"}#": {
+    "id": "null",
+    "name": "",
+    "chunks": [
+      "static/css/_app-client_node_modules_next_font_google_target_css_path_src_app_layout_tsx_import_Roboto_ar-83a30a.css"
     ]
   }
 }

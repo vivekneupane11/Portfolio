@@ -6,7 +6,7 @@ import logo from '../../../../public/logo.png'
 import Image from "next/image";
 const headerLinks = {
   "/": {
-    name: "home",
+    name: "Home",
   },
   "/about": {
     name: "about",
@@ -22,10 +22,10 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState<boolean>(false);
 
   return (
-    <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5  dark:bg-gray-900">
+    <nav className="shadow-md	 backdrop-blur-md  dark:bg-darkSecondary border-gray-200 px-2 sm:px-4 py-2.5  dark:bg-gray-900">
       <div className="container flex flex-wrap items-center justify-between mx-auto">
         <div className="flex items-center justify-center">
-          <Link href="/" className="flex items-center">
+          <Link href="/" className="flex items-center text-link">
             <Image
               src={logo}
               className="h-9 w-9 mr-3 "
@@ -72,7 +72,7 @@ export default function Header() {
               return (
                 <li key={path}>
                   <Link
-                    className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
+                    className=" mr-9 text-link font-medium text-lg capitalize block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
                     aria-current="page"
                     key={name}
                     href={path}

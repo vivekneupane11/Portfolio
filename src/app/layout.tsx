@@ -20,8 +20,8 @@ export default function RootLayout({
     <html lang="en" className={roboto.className}>
       <body className='dark:bg-darkSecondary'>
      <ThemeProviders>
-<main className=''>
-  <h1>Left SideBar</h1>
+<main>
+  <h1 className='bg-red	'>Left SideBar</h1>
 {children}
 
 </main>
