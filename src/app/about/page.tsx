@@ -1,8 +1,5 @@
 import type { Metadata } from "next";
-import one from '../../../public/one.jpeg'
-import two from '../../../public/two.jpeg'
-import three from '../../../public/three.jpeg'
-import Image from "next/image";
+
 
 export const metadata: Metadata = {
   title: "About",
@@ -12,7 +9,7 @@ export const metadata: Metadata = {
 export default function About() {
   return (
     <section className="m-auto items-center  sm:items-center md:items-center xl:items-start flex px-6 text-left flex-col mt-6 gap-8 flex-wrap sm:max-w-[100%]   md:max-w-[70%] xl:max-w-[60%]">
-      <h1 className="font-normal text-4xl   ">About Me</h1>
+      <h1 className="font-normal text-4xl    ">About Me</h1>
       <div className=" text-emerald-700  text-4xl  flex flex-col justify-between items-center custom:items-start xl:items-start">
         <p> Hi there, I'm Vivek.🇳🇵</p>{" "}
         <section className="flex gap-2 mt-2 mr-10">
@@ -90,25 +87,22 @@ export default function About() {
       </div>
       <img className="rounded-md" height={400} style={{ width:'100%', height:'400px',objectFit:'cover'}} src="https://scontent.fmey1-1.fna.fbcdn.net/v/t39.30808-6/245103881_1230779857426799_76874542391346926_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=a26aad&_nc_ohc=s_YUrfERfXsAX-rjuhL&_nc_oc=AQnuoTNgZAEnDFlkz6130y4sSVjbrCgxp57DuJC48d1ePB1De58OjxoY-z_yRDsnQ_o&_nc_ht=scontent.fmey1-1.fna&oh=00_AfCLgrOYeOndHHDPbL5jrezfDjdA8XyFM_PB33PfnUsgZw&oe=6428E049" alt="medicos"/>
       <div className="prose font-roboto text-2xl prose-neutral dark:prose-invert text-emerald-800 dark:text-emerald-600">
+
+              <blockquote className="text-2xl italic font-normal text-emerald-600">
+    <svg aria-hidden="true" className="w-10 h-10 text-emerald-600"  viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"/></svg>
+    <p>"   If you really desire something from the heart, then the whole
+          universe will work towards getting you that. "</p>
+</blockquote>
+        <p className=" flex justify-center items-center text-2xl ">
+        
      
-        <p>
-         I am currently working as Chief Technology Officer (CTO) of Medicos International.Medicos
-          International is a tech startup in the healthcare industry.
-        </p>
-        <br></br>
+      
+          <br></br>
+          I recall , listening to that quote in a Bollywood movie (Om Shanti Om) as a kid.
+         
+        
 
-        <p>
-          It's been 5 yrs and more working in this field. I love how programming brings creativity out of me.
-          I love creative work. I believe creativity is what makes our lives
-          better, which in turn contributes to spreading joy to others as well.
-          I am highly passionate about coding and creative works such as content
-          creation, writing, music, and many more.
-        </p>
-        <br></br>
-
-        <p className="italic flex justify-center items-center text-2xl ">
-          "If you really desire something from the heart, then the whole
-          universe will work towards getting you that."
+          I am 27 years old now and it's still my favorite quote .
 
 
 
@@ -118,23 +112,32 @@ export default function About() {
         </div>
         <br />
         <p className="mb-8">
-          Because of my interest and dedication in software development. I
-          became the Chief Technology Officer at Medicos International. Our apps
+          Because of my interest and passion in software development. I was fortunate to
+          become the Chief Technology Officer at Medicos International. Our apps
           are serving{" "}
           <span className="font-bold underline">half a million users</span> now.
         </p>
         <p className="mb-8">
-          I have also successfully conducted web development workshops. In that
-          workshop, I have tutored more than{" "}
-          <span className="font-bold underline">30 graduates</span> about Web
-          development.
+          I have also successfully conducted software development workshops. In that
+          workshop, I have tutored many IT graduates about software
+          development process.
         </p>
+        <p>
+          It's been more than 5years for me working in this field. I love how programming brings creativity out of me.
+          I love creative work.
+          I am  passionate about coding, content
+          creation, writing, music, camping and  more.
+        </p>
+        <br></br>
+        
+       
   <p className="mb-8">
-          Even though the journey is just in its beginning phase, I am grateful
-          for everything.
+  When I'm not staring at the computer screen, you can probably find me reading a great book. Most of the time I go for camping as well.Camping has  become my favorite thing to do .   
         </p>
-
-
+<br />
+<br />
+<p> My friend Lenon wants to say Hi...</p>
+<img className="mt-6 rounded-xl" style={{height:'700px',width:'900px',objectFit:'cover'}} src="https://scontent.fmey1-1.fna.fbcdn.net/v/t39.30808-6/272856487_474829137536800_1795725710129319712_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=Y2wkKR5iPEIAX86q3VS&_nc_ht=scontent.fmey1-1.fna&oh=00_AfD6giniwoqx5UR9XAYPKFZSuIXMf5SKADZFX65d_9A7cg&oe=64298683" alt="dog"/>
       </div>
  
 

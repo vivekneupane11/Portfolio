@@ -104,6 +104,110 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./public/android.png": {
+      "*": {
+        "id": "(sc_client)/./public/android.png",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./public/android.png",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./public/android.png",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./public/apple.png": {
+      "*": {
+        "id": "(sc_client)/./public/apple.png",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./public/apple.png",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./public/apple.png",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./public/web.png": {
+      "*": {
+        "id": "(sc_client)/./public/web.png",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./public/web.png",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./public/web.png",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/image.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
     "(app-client)/./public/profile-pic.png": {
       "*": {
         "id": "(sc_client)/./public/profile-pic.png",
@@ -125,32 +229,6 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./public/profile-pic.png",
         "chunks": [
           "app/layout:app/layout"
-        ],
-        "name": "default",
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/image.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "name": "*",
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "name": "",
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "chunks": [
-          "app/page:app/page"
         ],
         "name": "default",
         "async": false
@@ -255,84 +333,6 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/app/components/SideBar/components/FloatingButton.tsx",
         "chunks": [
           "app/layout:app/layout"
-        ],
-        "name": "default",
-        "async": false
-      }
-    },
-    "(app-client)/./public/android.png": {
-      "*": {
-        "id": "(sc_client)/./public/android.png",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "name": "*",
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/android.png",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "name": "",
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/android.png",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "name": "default",
-        "async": false
-      }
-    },
-    "(app-client)/./public/apple.png": {
-      "*": {
-        "id": "(sc_client)/./public/apple.png",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "name": "*",
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/apple.png",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "name": "",
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/apple.png",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "name": "default",
-        "async": false
-      }
-    },
-    "(app-client)/./public/web.png": {
-      "*": {
-        "id": "(sc_client)/./public/web.png",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "name": "*",
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/web.png",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "name": "",
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/web.png",
-        "chunks": [
-          "app/page:app/page"
         ],
         "name": "default",
         "async": false
@@ -538,6 +538,126 @@ self.__RSC_MANIFEST={
     "name": "default",
     "async": false
   },
+  "/Users/vivek/Documents/Workspace/portfolio/public/android.png": {
+    "id": "(app-client)/./public/android.png",
+    "chunks": [
+      "app/page:app/page"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/vivek/Documents/Workspace/portfolio/public/android.png#": {
+    "id": "(app-client)/./public/android.png",
+    "chunks": [
+      "app/page:app/page"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/vivek/Documents/Workspace/portfolio/public/android.png#default": {
+    "id": "(app-client)/./public/android.png",
+    "chunks": [
+      "app/page:app/page"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/vivek/Documents/Workspace/portfolio/public/apple.png": {
+    "id": "(app-client)/./public/apple.png",
+    "chunks": [
+      "app/page:app/page"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/vivek/Documents/Workspace/portfolio/public/apple.png#": {
+    "id": "(app-client)/./public/apple.png",
+    "chunks": [
+      "app/page:app/page"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/vivek/Documents/Workspace/portfolio/public/apple.png#default": {
+    "id": "(app-client)/./public/apple.png",
+    "chunks": [
+      "app/page:app/page"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/vivek/Documents/Workspace/portfolio/public/web.png": {
+    "id": "(app-client)/./public/web.png",
+    "chunks": [
+      "app/page:app/page"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/vivek/Documents/Workspace/portfolio/public/web.png#": {
+    "id": "(app-client)/./public/web.png",
+    "chunks": [
+      "app/page:app/page"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/vivek/Documents/Workspace/portfolio/public/web.png#default": {
+    "id": "(app-client)/./public/web.png",
+    "chunks": [
+      "app/page:app/page"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/vivek/Documents/Workspace/portfolio/node_modules/next/dist/client/image.js": {
+    "id": "(app-client)/./node_modules/next/dist/client/image.js",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/vivek/Documents/Workspace/portfolio/node_modules/next/dist/esm/client/image.js": {
+    "id": "(app-client)/./node_modules/next/dist/client/image.js",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/vivek/Documents/Workspace/portfolio/node_modules/next/dist/client/image.js#": {
+    "id": "(app-client)/./node_modules/next/dist/client/image.js",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/vivek/Documents/Workspace/portfolio/node_modules/next/dist/esm/client/image.js#": {
+    "id": "(app-client)/./node_modules/next/dist/client/image.js",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/vivek/Documents/Workspace/portfolio/node_modules/next/dist/client/image.js#default": {
+    "id": "(app-client)/./node_modules/next/dist/client/image.js",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/vivek/Documents/Workspace/portfolio/node_modules/next/dist/esm/client/image.js#default": {
+    "id": "(app-client)/./node_modules/next/dist/client/image.js",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "default",
+    "async": false
+  },
   "/Users/vivek/Documents/Workspace/portfolio/public/profile-pic.png": {
     "id": "(app-client)/./public/profile-pic.png",
     "chunks": [
@@ -558,54 +678,6 @@ self.__RSC_MANIFEST={
     "id": "(app-client)/./public/profile-pic.png",
     "chunks": [
       "app/layout:app/layout"
-    ],
-    "name": "default",
-    "async": false
-  },
-  "/Users/vivek/Documents/Workspace/portfolio/node_modules/next/dist/client/image.js": {
-    "id": "(app-client)/./node_modules/next/dist/client/image.js",
-    "chunks": [
-      "app/page:app/page"
-    ],
-    "name": "*",
-    "async": false
-  },
-  "/Users/vivek/Documents/Workspace/portfolio/node_modules/next/dist/esm/client/image.js": {
-    "id": "(app-client)/./node_modules/next/dist/client/image.js",
-    "chunks": [
-      "app/page:app/page"
-    ],
-    "name": "*",
-    "async": false
-  },
-  "/Users/vivek/Documents/Workspace/portfolio/node_modules/next/dist/client/image.js#": {
-    "id": "(app-client)/./node_modules/next/dist/client/image.js",
-    "chunks": [
-      "app/page:app/page"
-    ],
-    "name": "",
-    "async": false
-  },
-  "/Users/vivek/Documents/Workspace/portfolio/node_modules/next/dist/esm/client/image.js#": {
-    "id": "(app-client)/./node_modules/next/dist/client/image.js",
-    "chunks": [
-      "app/page:app/page"
-    ],
-    "name": "",
-    "async": false
-  },
-  "/Users/vivek/Documents/Workspace/portfolio/node_modules/next/dist/client/image.js#default": {
-    "id": "(app-client)/./node_modules/next/dist/client/image.js",
-    "chunks": [
-      "app/page:app/page"
-    ],
-    "name": "default",
-    "async": false
-  },
-  "/Users/vivek/Documents/Workspace/portfolio/node_modules/next/dist/esm/client/image.js#default": {
-    "id": "(app-client)/./node_modules/next/dist/client/image.js",
-    "chunks": [
-      "app/page:app/page"
     ],
     "name": "default",
     "async": false
@@ -702,78 +774,6 @@ self.__RSC_MANIFEST={
     "id": "(app-client)/./src/app/components/SideBar/components/FloatingButton.tsx",
     "chunks": [
       "app/layout:app/layout"
-    ],
-    "name": "default",
-    "async": false
-  },
-  "/Users/vivek/Documents/Workspace/portfolio/public/android.png": {
-    "id": "(app-client)/./public/android.png",
-    "chunks": [
-      "app/page:app/page"
-    ],
-    "name": "*",
-    "async": false
-  },
-  "/Users/vivek/Documents/Workspace/portfolio/public/android.png#": {
-    "id": "(app-client)/./public/android.png",
-    "chunks": [
-      "app/page:app/page"
-    ],
-    "name": "",
-    "async": false
-  },
-  "/Users/vivek/Documents/Workspace/portfolio/public/android.png#default": {
-    "id": "(app-client)/./public/android.png",
-    "chunks": [
-      "app/page:app/page"
-    ],
-    "name": "default",
-    "async": false
-  },
-  "/Users/vivek/Documents/Workspace/portfolio/public/apple.png": {
-    "id": "(app-client)/./public/apple.png",
-    "chunks": [
-      "app/page:app/page"
-    ],
-    "name": "*",
-    "async": false
-  },
-  "/Users/vivek/Documents/Workspace/portfolio/public/apple.png#": {
-    "id": "(app-client)/./public/apple.png",
-    "chunks": [
-      "app/page:app/page"
-    ],
-    "name": "",
-    "async": false
-  },
-  "/Users/vivek/Documents/Workspace/portfolio/public/apple.png#default": {
-    "id": "(app-client)/./public/apple.png",
-    "chunks": [
-      "app/page:app/page"
-    ],
-    "name": "default",
-    "async": false
-  },
-  "/Users/vivek/Documents/Workspace/portfolio/public/web.png": {
-    "id": "(app-client)/./public/web.png",
-    "chunks": [
-      "app/page:app/page"
-    ],
-    "name": "*",
-    "async": false
-  },
-  "/Users/vivek/Documents/Workspace/portfolio/public/web.png#": {
-    "id": "(app-client)/./public/web.png",
-    "chunks": [
-      "app/page:app/page"
-    ],
-    "name": "",
-    "async": false
-  },
-  "/Users/vivek/Documents/Workspace/portfolio/public/web.png#default": {
-    "id": "(app-client)/./public/web.png",
-    "chunks": [
-      "app/page:app/page"
     ],
     "name": "default",
     "async": false
