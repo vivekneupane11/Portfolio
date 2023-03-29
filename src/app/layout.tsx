@@ -2,6 +2,8 @@ import ThemeProviders from "@/ThemeProviders";
 import SideBar from "./components/SideBar";
 import "./globals.css";
 import { Roboto } from "@next/font/google";
+import FloatingButton from "./components/SideBar/components/FloatingButton";
+import Heading from "./components/SideBar/components/Heading";
 export const metadata = {
   title: "Vivek Neupane",
   description:
@@ -23,7 +25,11 @@ export default function RootLayout({
     <html lang="en" className={roboto.className}>
       <body className="bg-teal-50 dark:bg-black max-w-[1980px] m-auto">
         <ThemeProviders>
-          <main className=" relative flex direction-row mt-12 gap-12 ">
+          <main className=" relative flex flex-col mb-20 justify-center items-center xl:justify-start xl:items-start  xl:flex-row mt-12 gap-12 ">
+            <section className="flex  xl:hidden">
+              <Heading/>
+            </section>
+            <FloatingButton/>
             <SideBar />
             {children}
           </main>

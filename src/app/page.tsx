@@ -6,14 +6,14 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex flex-col max-w-[60%]">
+    <main className=" m-auto flex flex-col items-center  sm:items-center md:items-center xl:items-start sm:max-w-[100%] md:max-w-[95%] xl:max-w-[60%]">
       <h1 className="font-normal text-4xl my-8 ">Projects</h1>
-      <div className="m-auto flex flex-row gap-8 flex-wrap ">
+      <div className="m-auto flex justify-center sm:justify-center md:justify-center xl:justify-start flex-row gap-8 flex-wrap ">
         {projects.map((e) => {
           return (
             <div
               key={e}
-              className=" relative max-w-sm bg-teal-50 border border-gray-100 rounded-lg shadow-lg dark:bg-gray-900 backdrop-blur-lg dark:border-gray-900"
+              className=" relative max-w-sm sm:max-w-md lg:max-w-md  xl:max-w-sm custom:max-w-xs  bg-teal-50 border border-gray-100 rounded-lg shadow-lg dark:bg-gray-900 backdrop-blur-lg dark:border-gray-900"
             >
               <a
                 target="_blank"
@@ -21,20 +21,19 @@ export default function Home() {
                 style={{ width: "100%", height: "200px" }}
               >
                 <img
-                  className="rounded-lg"
+                  className="rounded-lg h-[250px] custom:h-[200px]"
                   src={e.thumbnail}
                   style={{ objectFit: "cover" }}
                   height="300px"
-                  style={{ width: "100%", height: "250px" }}
+                  style={{ width: "100%" }}
                   alt="avatar"
                 />
-                <section className="p-1 rounded-lg absolute top-[230px] left-[42%]  bg-gray-100 hover:scale-125 dark:bg-gray-800 ">
+                <section className="p-1 rounded-lg absolute top-[230px] custom:top-[180px] left-[42%]  bg-gray-100 hover:scale-125 dark:bg-gray-800 ">
                   <img
-                    className="rounded-lg"
+                    className="rounded-lg h-[36px] w-[36px]  "
                     src={e.logo}
                     style={{ objectFit: "cover" }}
                     height="100px"
-                    style={{ width: "36px", height: "36px" }}
                     alt="avatar"
                   />
                 </section>
@@ -55,7 +54,7 @@ export default function Home() {
                   <button
                     key={tool}
                     type="button"
-                    className="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-emerald-700 focus:outline-none bg-transparent rounded-full border border-gray-200 hover:shadow-md  focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 hover:bg-emerald-600 hover:text-gray-100 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+                    className="py-2 px-5 mr-2 mb-2 text-sm font-medium text-emerald-700 focus:outline-none bg-transparent rounded-full border border-gray-200 hover:shadow-md  focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 hover:bg-emerald-600 hover:text-gray-100 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
                   >
                     {tool}
                   </button>
