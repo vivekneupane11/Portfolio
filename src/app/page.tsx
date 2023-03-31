@@ -7,9 +7,9 @@ import AnimationHeader from "./components/AnimationHeader";
 
 export default function Home() {
   return (
-    <main className=" m-auto flex flex-col items-center  sm:items-center md:items-center xl:items-start ">
+    <main className=" m-auto flex flex-col items-center  sm:items-center md:items-center xl:items-start   ">
 <AnimationHeader title="Projects" />
-      <div className="m-auto flex justify-center sm:justify-center md:justify-center xl:justify-start flex-row gap-8 flex-wrap w-[95%] md:w-[100%] ">
+      <div className="m-auto flex justify-center sm:justify-center md:justify-center xl:justify-start flex-row gap-8 flex-wrap w-[95%] md:w-[100%] mt-5 md:mt-2 ">
         {projects.map((e) => {
           return (
             <div

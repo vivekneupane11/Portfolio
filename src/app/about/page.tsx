@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 export default function About() {
   return (
-    <section className="m-auto items-center  sm:items-center md:items-center xl:items-start flex px-6 text-left flex-col mt-6 gap-8 flex-wrap ">
+    <section className="m-auto items-center  sm:items-center md:items-center xl:items-start flex px-6 text-left flex-col mt-1 md:mt-6 gap-8 flex-wrap ">
 <AnimationHeader title="About Me" />
       <div className=" text-emerald-700  text-4xl  flex flex-col justify-between items-center custom:items-start xl:items-start">
         <p> Hi there, I'm Vivek.🇳🇵</p>{" "}

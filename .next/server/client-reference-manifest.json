@@ -212,7 +212,7 @@
       "*": {
         "id": "(sc_client)/./src/app/components/AnimationHeader/index.tsx",
         "chunks": [
-          "app/about/page:app/about/page"
+          "app/contact/page:app/contact/page"
         ],
         "name": "*",
         "async": false
@@ -220,7 +220,7 @@
       "": {
         "id": "(sc_client)/./src/app/components/AnimationHeader/index.tsx",
         "chunks": [
-          "app/about/page:app/about/page"
+          "app/contact/page:app/contact/page"
         ],
         "name": "",
         "async": false
@@ -228,7 +228,7 @@
       "default": {
         "id": "(sc_client)/./src/app/components/AnimationHeader/index.tsx",
         "chunks": [
-          "app/about/page:app/about/page"
+          "app/contact/page:app/contact/page"
         ],
         "name": "default",
         "async": false
@@ -713,7 +713,7 @@
   "/Users/vivek/Documents/Workspace/portfolio/src/app/components/AnimationHeader/index.tsx": {
     "id": "(app-client)/./src/app/components/AnimationHeader/index.tsx",
     "chunks": [
-      "app/about/page:app/about/page"
+      "app/contact/page:app/contact/page"
     ],
     "name": "*",
     "async": false
@@ -721,7 +721,7 @@
   "/Users/vivek/Documents/Workspace/portfolio/src/app/components/AnimationHeader/index.tsx#": {
     "id": "(app-client)/./src/app/components/AnimationHeader/index.tsx",
     "chunks": [
-      "app/about/page:app/about/page"
+      "app/contact/page:app/contact/page"
     ],
     "name": "",
     "async": false
@@ -729,7 +729,7 @@
   "/Users/vivek/Documents/Workspace/portfolio/src/app/components/AnimationHeader/index.tsx#default": {
     "id": "(app-client)/./src/app/components/AnimationHeader/index.tsx",
     "chunks": [
-      "app/about/page:app/about/page"
+      "app/contact/page:app/contact/page"
     ],
     "name": "default",
     "async": false
