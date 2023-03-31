@@ -15,7 +15,7 @@ export default function DarkLightMode() {
 
   return (
     <div className="  m-auto   cursor-pointer ">
-      {mounted && theme === "dark" && (
+      {mounted && currentTheme === "dark" && (
         <button
           type="button"
           onClick={() => setTheme("light")}
@@ -39,7 +39,7 @@ export default function DarkLightMode() {
         Light it Up
         </button>
       )}
-      {mounted && theme === "light" && (
+      {mounted && currentTheme === "light" && (
         <button
           onClick={() => setTheme("dark")}
           type="button"

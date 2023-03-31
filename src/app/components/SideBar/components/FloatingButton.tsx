@@ -31,6 +31,10 @@ export default function FloatingButton() {
           <motion.div key={path}  initial={{ opacity: 0, x:200 *(i+1)  }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ delay:0.2, duration: 0.7*(i+1) }}
+          whileTap={{
+            "bg-teal-50":!isActive,
+            "bg-emerald-600":isActive
+          }}
           className={clsx("shadow-xl rounded-full" ,{
             "bg-teal-50":!isActive,
             "bg-emerald-600":isActive
