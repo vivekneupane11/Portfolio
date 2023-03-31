@@ -32,8 +32,11 @@ export default function FloatingButton() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ delay:0.2, duration: 0.7*(i+1) }}
           className={clsx("shadow-xl rounded-full hover:bg-emerald-600/100 hover:text-gray-100 dark:hover:bg-gray-700"  ,{
-            "bg-teal-50":!isActive,
-            "bg-emerald-600":isActive
+            "bg-emerald-600": isActive,
+                "text-gray-100": isActive,
+                "bg-teal-50":!isActive,
+                "dark:bg-dark-800":!isActive,
+                "text-emerald-600 ":!isActive
           })}
           >
           <Link
