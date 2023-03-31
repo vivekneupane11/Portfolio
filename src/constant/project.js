@@ -10,6 +10,15 @@ logo:'https://play-lh.googleusercontent.com/g5GanfEH-tDgbGkyoGJ2HQ3nU6uMU7t__m-q
     thumbnail:'https://scontent.fmey1-1.fna.fbcdn.net/v/t39.30808-6/218758543_562243375145086_8691660892141230295_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=a26aad&_nc_ohc=kCqxcpG2JLMAX-KnEru&_nc_ht=scontent.fmey1-1.fna&oh=00_AfDNXmKOdtzDL3DPIJHBcHLCvJNwvMGgiEPfuJ8yXlEu-g&oe=642901BF'
 },
 {
+    name:'Medicos ECG',
+    description:"An app built on React Native. This app contains the UI that I am proud of.",
+    androidLink:'https://play.google.com/store/apps/details?id=rjl.medicos.ecg&hl=en&gl=US',
+    tools:['react-native','firebase'],
+    iosLink:'https://apps.apple.com/ie/app/medicos-pdf/id1506558620',
+    logo:'https://play-lh.googleusercontent.com/fhEKmpZdJxCJ0-lKWDUMYMAUSk9fuqhtyG4Rhpqr4yDNoLkIG1n69cVenCjrUnoCasy3=s96-rw',
+    thumbnail:'https://cdn.apkmonk.com/images/rjl.medicos.ecg.png' 
+},
+{
     name:'Medicos Histology',
     description:"First app I ever created. An app built on React Native. This app contains the UI that I am proud of.",
     androidLink:'https://play.google.com/store/apps/details?id=rjl.medicos.histo&hl=en&gl=US',
@@ -27,17 +36,9 @@ logo:'https://play-lh.googleusercontent.com/g5GanfEH-tDgbGkyoGJ2HQ3nU6uMU7t__m-q
     logo:'https://play-lh.googleusercontent.com/cND4wKnc8pia_avl7hD9lWaSeLeqs8VSYbWvlPhT5PqnC2n6ql-nFmod59nJliWVduY=s96-rw',
     thumbnail:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUhokY9OejNUPWU59keGKkvYTN2zrR_MsSanAAT7hf5zyFYlZYktJ1V8TIOlYPfWjzYx4&usqp=CAU' 
 },
+
 {
-    name:'Medicos ECG',
-    description:"An app built on React Native. This app contains the UI that I am proud of.",
-    androidLink:'https://play.google.com/store/apps/details?id=rjl.medicos.ecg&hl=en&gl=US',
-    tools:['react-native','firebase'],
-    iosLink:'https://apps.apple.com/ie/app/medicos-pdf/id1506558620',
-    logo:'https://play-lh.googleusercontent.com/fhEKmpZdJxCJ0-lKWDUMYMAUSk9fuqhtyG4Rhpqr4yDNoLkIG1n69cVenCjrUnoCasy3=s96-rw',
-    thumbnail:'https://cdn.apkmonk.com/images/rjl.medicos.ecg.png' 
-},
-{
-    name:'Jhigubazar Web',
+    name:'Jhigubazar Website',
 description:"An second hand product selling and donating website with highly interactive UI.",
 androidLink:'https://www.jhigubazar.com/session/language',
 tools:['js','node-js','mongodb'],
@@ -86,6 +87,7 @@ demoLink:'https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:693770699626
 logo:'https://cdn.worldvectorlogo.com/logos/react-1.svg',
 thumbnail:'https://i0.wp.com/ugtechmag.com/wp-content/uploads/2019/02/featured-text-editor.png?fit=768%2C384&ssl=1' 
 },
+
 {
     name:'Next Medical Locker',
 description:"Web app in nextjs. This was a project for my client.Authentication and Authorization.",
@@ -95,6 +97,17 @@ iosLink:'https://drive.google.com/file/d/1Ioalj_yXD5jjDRvCId3fVNMkF4YerFjL/view?
 webLink:'https://drive.google.com/file/d/1Ioalj_yXD5jjDRvCId3fVNMkF4YerFjL/view?usp=sharing',
 logo:'https://media.licdn.com/dms/image/C4E0BAQFpSTT-fH1dOw/company-logo_100_100/0/1642228604440?e=1687996800&v=beta&t=rqtbM6UdxWRy96sKUe4N_5LmVnFJ74pR-n3o3kZCL9g',
 thumbnail:'https://media.licdn.com/dms/image/C4E0BAQFpSTT-fH1dOw/company-logo_100_100/0/1642228604440?e=1687996800&v=beta&t=rqtbM6UdxWRy96sKUe4N_5LmVnFJ74pR-n3o3kZCL9g' 
+},
+{
+    name:'Saesha Store',
+description:"An ecommerce store based in Japan.",
+androidLink:'https://saesha.store/',
+tools:['js','cloudinary','wordpress'],
+iosLink:'https://saesha.store/',
+webLink:'https://saesha.store/',
+demoLink:'https://saesha.store/',
+logo:'http://www.djsasha.com/images/facebook.jpg',
+thumbnail:'http://www.djsasha.com/images/facebook.jpg' 
 },
 ]
 

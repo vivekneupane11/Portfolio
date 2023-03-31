@@ -4,6 +4,7 @@ import "./globals.css";
 import { Roboto } from "@next/font/google";
 import FloatingButton from "./components/SideBar/components/FloatingButton";
 import Heading from "./components/SideBar/components/Heading";
+import MotionWrapper from './components/MotionWrapper'
 export const metadata = {
   title: "Vivek Neupane",
   description:
@@ -31,7 +32,10 @@ export default function RootLayout({
             </section>
             <FloatingButton/>
             <SideBar />
+            <MotionWrapper>
             {children}
+
+            </MotionWrapper>
           </main>
         </ThemeProviders>
       </body>

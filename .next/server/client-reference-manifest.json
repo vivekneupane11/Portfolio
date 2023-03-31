@@ -186,7 +186,7 @@
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "chunks": [
-          "app/layout:app/layout"
+          "app/about/page:app/about/page"
         ],
         "name": "*",
         "async": false
@@ -194,7 +194,7 @@
       "": {
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "chunks": [
-          "app/layout:app/layout"
+          "app/about/page:app/about/page"
         ],
         "name": "",
         "async": false
@@ -202,7 +202,33 @@
       "default": {
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "chunks": [
-          "app/layout:app/layout"
+          "app/about/page:app/about/page"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/components/AnimationHeader/index.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/components/AnimationHeader/index.tsx",
+        "chunks": [
+          "app/contact/page:app/contact/page"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/components/AnimationHeader/index.tsx",
+        "chunks": [
+          "app/contact/page:app/contact/page"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/components/AnimationHeader/index.tsx",
+        "chunks": [
+          "app/contact/page:app/contact/page"
         ],
         "name": "default",
         "async": false
@@ -260,9 +286,9 @@
         "async": false
       }
     },
-    "(app-client)/./src/app/components/DarkLightToogle/index.tsx": {
+    "(app-client)/./src/app/components/MotionWrapper/index.tsx": {
       "*": {
-        "id": "(sc_client)/./src/app/components/DarkLightToogle/index.tsx",
+        "id": "(sc_client)/./src/app/components/MotionWrapper/index.tsx",
         "chunks": [
           "app/layout:app/layout"
         ],
@@ -270,7 +296,7 @@
         "async": false
       },
       "": {
-        "id": "(sc_client)/./src/app/components/DarkLightToogle/index.tsx",
+        "id": "(sc_client)/./src/app/components/MotionWrapper/index.tsx",
         "chunks": [
           "app/layout:app/layout"
         ],
@@ -278,7 +304,7 @@
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./src/app/components/DarkLightToogle/index.tsx",
+        "id": "(sc_client)/./src/app/components/MotionWrapper/index.tsx",
         "chunks": [
           "app/layout:app/layout"
         ],
@@ -331,6 +357,32 @@
       },
       "default": {
         "id": "(sc_client)/./src/app/components/SideBar/components/FloatingButton.tsx",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/components/SideBar/components/Heading/index.js": {
+      "*": {
+        "id": "(sc_client)/./src/app/components/SideBar/components/Heading/index.js",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/components/SideBar/components/Heading/index.js",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/components/SideBar/components/Heading/index.js",
         "chunks": [
           "app/layout:app/layout"
         ],
@@ -613,7 +665,7 @@
   "/Users/vivek/Documents/Workspace/portfolio/node_modules/next/dist/client/image.js": {
     "id": "(app-client)/./node_modules/next/dist/client/image.js",
     "chunks": [
-      "app/layout:app/layout"
+      "app/about/page:app/about/page"
     ],
     "name": "*",
     "async": false
@@ -621,7 +673,7 @@
   "/Users/vivek/Documents/Workspace/portfolio/node_modules/next/dist/esm/client/image.js": {
     "id": "(app-client)/./node_modules/next/dist/client/image.js",
     "chunks": [
-      "app/layout:app/layout"
+      "app/about/page:app/about/page"
     ],
     "name": "*",
     "async": false
@@ -629,7 +681,7 @@
   "/Users/vivek/Documents/Workspace/portfolio/node_modules/next/dist/client/image.js#": {
     "id": "(app-client)/./node_modules/next/dist/client/image.js",
     "chunks": [
-      "app/layout:app/layout"
+      "app/about/page:app/about/page"
     ],
     "name": "",
     "async": false
@@ -637,7 +689,7 @@
   "/Users/vivek/Documents/Workspace/portfolio/node_modules/next/dist/esm/client/image.js#": {
     "id": "(app-client)/./node_modules/next/dist/client/image.js",
     "chunks": [
-      "app/layout:app/layout"
+      "app/about/page:app/about/page"
     ],
     "name": "",
     "async": false
@@ -645,7 +697,7 @@
   "/Users/vivek/Documents/Workspace/portfolio/node_modules/next/dist/client/image.js#default": {
     "id": "(app-client)/./node_modules/next/dist/client/image.js",
     "chunks": [
-      "app/layout:app/layout"
+      "app/about/page:app/about/page"
     ],
     "name": "default",
     "async": false
@@ -653,7 +705,31 @@
   "/Users/vivek/Documents/Workspace/portfolio/node_modules/next/dist/esm/client/image.js#default": {
     "id": "(app-client)/./node_modules/next/dist/client/image.js",
     "chunks": [
-      "app/layout:app/layout"
+      "app/about/page:app/about/page"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/vivek/Documents/Workspace/portfolio/src/app/components/AnimationHeader/index.tsx": {
+    "id": "(app-client)/./src/app/components/AnimationHeader/index.tsx",
+    "chunks": [
+      "app/contact/page:app/contact/page"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/vivek/Documents/Workspace/portfolio/src/app/components/AnimationHeader/index.tsx#": {
+    "id": "(app-client)/./src/app/components/AnimationHeader/index.tsx",
+    "chunks": [
+      "app/contact/page:app/contact/page"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/vivek/Documents/Workspace/portfolio/src/app/components/AnimationHeader/index.tsx#default": {
+    "id": "(app-client)/./src/app/components/AnimationHeader/index.tsx",
+    "chunks": [
+      "app/contact/page:app/contact/page"
     ],
     "name": "default",
     "async": false
@@ -706,24 +782,24 @@
     "name": "default",
     "async": false
   },
-  "/Users/vivek/Documents/Workspace/portfolio/src/app/components/DarkLightToogle/index.tsx": {
-    "id": "(app-client)/./src/app/components/DarkLightToogle/index.tsx",
+  "/Users/vivek/Documents/Workspace/portfolio/src/app/components/MotionWrapper/index.tsx": {
+    "id": "(app-client)/./src/app/components/MotionWrapper/index.tsx",
     "chunks": [
       "app/layout:app/layout"
     ],
     "name": "*",
     "async": false
   },
-  "/Users/vivek/Documents/Workspace/portfolio/src/app/components/DarkLightToogle/index.tsx#": {
-    "id": "(app-client)/./src/app/components/DarkLightToogle/index.tsx",
+  "/Users/vivek/Documents/Workspace/portfolio/src/app/components/MotionWrapper/index.tsx#": {
+    "id": "(app-client)/./src/app/components/MotionWrapper/index.tsx",
     "chunks": [
       "app/layout:app/layout"
     ],
     "name": "",
     "async": false
   },
-  "/Users/vivek/Documents/Workspace/portfolio/src/app/components/DarkLightToogle/index.tsx#default": {
-    "id": "(app-client)/./src/app/components/DarkLightToogle/index.tsx",
+  "/Users/vivek/Documents/Workspace/portfolio/src/app/components/MotionWrapper/index.tsx#default": {
+    "id": "(app-client)/./src/app/components/MotionWrapper/index.tsx",
     "chunks": [
       "app/layout:app/layout"
     ],
@@ -772,6 +848,30 @@
   },
   "/Users/vivek/Documents/Workspace/portfolio/src/app/components/SideBar/components/FloatingButton.tsx#default": {
     "id": "(app-client)/./src/app/components/SideBar/components/FloatingButton.tsx",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/vivek/Documents/Workspace/portfolio/src/app/components/SideBar/components/Heading/index.js": {
+    "id": "(app-client)/./src/app/components/SideBar/components/Heading/index.js",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/vivek/Documents/Workspace/portfolio/src/app/components/SideBar/components/Heading/index.js#": {
+    "id": "(app-client)/./src/app/components/SideBar/components/Heading/index.js",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/vivek/Documents/Workspace/portfolio/src/app/components/SideBar/components/Heading/index.js#default": {
+    "id": "(app-client)/./src/app/components/SideBar/components/Heading/index.js",
     "chunks": [
       "app/layout:app/layout"
     ],

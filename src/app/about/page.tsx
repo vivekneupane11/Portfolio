@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import Image from "next/image";
+import AnimationHeader from "../components/AnimationHeader";
 
 
 export const metadata: Metadata = {
@@ -8,8 +10,8 @@ export const metadata: Metadata = {
 
 export default function About() {
   return (
-    <section className="m-auto items-center  sm:items-center md:items-center xl:items-start flex px-6 text-left flex-col mt-6 gap-8 flex-wrap sm:max-w-[100%]   md:max-w-[70%] xl:max-w-[60%]">
-      <h1 className="font-normal text-4xl    ">About Me</h1>
+    <section className="m-auto items-center  sm:items-center md:items-center xl:items-start flex px-6 text-left flex-col mt-6 gap-8 flex-wrap ">
+<AnimationHeader title="About Me" />
       <div className=" text-emerald-700  text-4xl  flex flex-col justify-between items-center custom:items-start xl:items-start">
         <p> Hi there, I'm Vivek.🇳🇵</p>{" "}
         <section className="flex gap-2 mt-2 mr-10">
@@ -85,7 +87,7 @@ export default function About() {
          </a>
         </section>
       </div>
-      <img className="rounded-md" height={400} style={{ width:'100%', height:'400px',objectFit:'cover'}} src="https://scontent.fmey1-1.fna.fbcdn.net/v/t39.30808-6/245103881_1230779857426799_76874542391346926_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=a26aad&_nc_ohc=s_YUrfERfXsAX-rjuhL&_nc_oc=AQnuoTNgZAEnDFlkz6130y4sSVjbrCgxp57DuJC48d1ePB1De58OjxoY-z_yRDsnQ_o&_nc_ht=scontent.fmey1-1.fna&oh=00_AfCLgrOYeOndHHDPbL5jrezfDjdA8XyFM_PB33PfnUsgZw&oe=6428E049" alt="medicos"/>
+      <img loading="lazy" className="rounded-md" height={"400px"} width={"400px"} style={{ width:'100%', height:'400px',objectFit:'cover'}} src="https://scontent.fmey1-1.fna.fbcdn.net/v/t39.30808-6/245103881_1230779857426799_76874542391346926_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=a26aad&_nc_ohc=s_YUrfERfXsAX-rjuhL&_nc_oc=AQnuoTNgZAEnDFlkz6130y4sSVjbrCgxp57DuJC48d1ePB1De58OjxoY-z_yRDsnQ_o&_nc_ht=scontent.fmey1-1.fna&oh=00_AfCLgrOYeOndHHDPbL5jrezfDjdA8XyFM_PB33PfnUsgZw&oe=6428E049" alt="medicos"/>
       <div className="prose font-roboto text-2xl prose-neutral dark:prose-invert text-emerald-800 dark:text-emerald-600">
 
               <blockquote className="text-2xl italic font-normal text-emerald-600">
@@ -137,7 +139,7 @@ export default function About() {
 <br />
 <br />
 <p> My friend Lenon wants to say Hi...</p>
-<img className="mt-6 rounded-xl" style={{height:'700px',width:'900px',objectFit:'cover'}} src="https://scontent.fmey1-1.fna.fbcdn.net/v/t39.30808-6/272856487_474829137536800_1795725710129319712_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=Y2wkKR5iPEIAX86q3VS&_nc_ht=scontent.fmey1-1.fna&oh=00_AfD6giniwoqx5UR9XAYPKFZSuIXMf5SKADZFX65d_9A7cg&oe=64298683" alt="dog"/>
+<Image loading="lazy" className="mt-6 rounded-xl" height={700} width={900} style={{height:'700px',width:'900px',objectFit:'cover'}} src="https://scontent.fmey1-1.fna.fbcdn.net/v/t39.30808-6/272856487_474829137536800_1795725710129319712_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=Y2wkKR5iPEIAX86q3VS&_nc_ht=scontent.fmey1-1.fna&oh=00_AfD6giniwoqx5UR9XAYPKFZSuIXMf5SKADZFX65d_9A7cg&oe=64298683" alt="dog"/>
       </div>
  
 

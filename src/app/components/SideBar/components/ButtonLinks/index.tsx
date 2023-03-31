@@ -3,6 +3,7 @@ import Link from "next/link";
 import React from "react";
 import clsx from "clsx";
 import { usePathname } from "next/navigation";
+import { motion } from "framer-motion"
 
 const headerLinks = {
   "/": {
@@ -21,12 +22,16 @@ export default function ButtonLinks() {
 
   return (
     <section className="flex flex-col pl-4 justify-center items-center w-full">
-      {Object.entries(headerLinks).map(([path, { name }]) => {
+      {Object.entries(headerLinks).map(([path, { name }],index) => {
         let isActive = pathname === path;
         console.log(isActive,pathname);
         
         return (
-          <Link
+          <motion.div  initial={{ opacity: 0, x:-100*(index+1)  }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ delay:0.2, duration: 0.7*(index+1) }}
+          >
+ <Link
             href={path}
             key={path}
             type="button"
@@ -76,6 +81,8 @@ export default function ButtonLinks() {
               ></path>
             </svg>
           </Link>
+          </motion.div>
+         
         );
       })}
     </section>

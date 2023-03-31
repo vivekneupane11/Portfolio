@@ -1,7 +1,9 @@
+import AnimationHeader from "../components/AnimationHeader";
+
 export default function Contact() {
   return (
-    <section className="m-auto flex items-center  sm:items-center md:items-center xl:items-start flex-col gap-8 flex-wrap sm:max-w-[100%] md:max-w-[100%] xl:max-w-[60%]">
-      <h1 className="font-normal text-4xl mt-9   ">Hire Me</h1>
+    <section className="m-auto flex items-center  sm:items-center md:items-center xl:items-start flex-col gap-8 flex-wrap">
+<AnimationHeader title="Hire Me" />
       <div className="grid  mb-8 border border-emerald-500 rounded-lg shadow-sm dark:border-emerald-500 md:mb-12 md:grid-cols-2">
         <figure className="flex flex-col items-center justify-center p-8 text-center bg-transparent border-b border-emerald-500 rounded-t-lg md:rounded-t-none md:rounded-tl-lg md:border-r  dark:border-emerald-500">
           <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
