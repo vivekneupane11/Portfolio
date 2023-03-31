@@ -12,7 +12,7 @@ export default function AnimationHeader({ title }: { title: string }) {
       exit={{opacity: 0, scale: 0}}
       transition={{delay:0.2, duration: 0.5 }}
     >
-      <h1 className="font-normal text-4xl my-8 ">{title}</h1>
+      <h1 className="font-normal text-4xl my-4 md:my-8 ">{title}</h1>
     </motion.div>
   </AnimatePresence>
   );

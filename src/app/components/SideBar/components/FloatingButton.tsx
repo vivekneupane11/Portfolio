@@ -31,13 +31,7 @@ export default function FloatingButton() {
           <motion.div key={path}  initial={{ opacity: 0, x:200 *(i+1)  }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ delay:0.2, duration: 0.7*(i+1) }}
-          className={clsx("shadow-xl rounded-full hover:bg-emerald-600/100 hover:text-gray-100 dark:hover:bg-gray-700"  ,{
-            "bg-emerald-600": isActive,
-                "text-gray-100": isActive,
-                "bg-teal-50":!isActive,
-                "dark:bg-dark-800":!isActive,
-                "text-emerald-600 ":!isActive
-          })}
+          className="shadow-xl  shadow-emerald-600	 rounded-full hover:bg-emerald-600/100 hover:text-gray-100 dark:hover:bg-gray-700"
           >
           <Link
             href={path}
@@ -45,7 +39,7 @@ export default function FloatingButton() {
             type="button"
             className={clsx(
 
-              "  justify-center 	capitalize  px-6  md:px-9  py-2 md:py-3  mt-1  	 hover:bg-emerald-600/100 hover:text-gray-100  focus:outline-none  font-medium rounded-full    text-center inline-flex items-center  dark:bg-gray-900  dark:border-gray-700  dark:hover:bg-gray-700  mb-1 text-md backdrop-blur-xl",
+              "  justify-center shadow-emerald-600	capitalize  px-6  md:px-9  py-2 md:py-3    	 hover:bg-emerald-600/100 hover:text-gray-100  focus:outline-none  font-medium rounded-full    text-center inline-flex items-center  dark:bg-gray-900  dark:border-gray-700  dark:hover:bg-gray-700   text-md backdrop-blur-xl",
               {
                 "bg-emerald-600": isActive,
                 "text-gray-100": isActive,
