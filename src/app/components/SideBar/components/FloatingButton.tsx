@@ -35,7 +35,7 @@ export default function FloatingButton() {
             "bg-teal-50":!isActive,
             "bg-emerald-600":isActive
           }}
-          className={clsx("shadow-xl rounded-full" ,{
+          className={clsx("shadow-xl rounded-full hover:bg-emerald-600/100 hover:text-gray-100 dark:hover:bg-gray-700"  ,{
             "bg-teal-50":!isActive,
             "bg-emerald-600":isActive
           })}
