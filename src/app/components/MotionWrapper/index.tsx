@@ -10,7 +10,7 @@ export default function MotionWrapper({
     const pathname = usePathname();
 
     return (
-        <motion.div className='sm:max-w-[100%] md:max-w-[95%] xl:max-w-[60%]' 
+        <motion.div className='sm:max-w-[95%] md:max-w-[95%] xl:max-w-[60%]' 
       initial="initial"
       key={pathname}
       animate="animate"
