@@ -14,7 +14,7 @@ export default function Home() {
           return (
             <div
               key={e.name}
-              className=" relative max-w-sm sm:max-w-md lg:max-w-md  xl:max-w-sm custom:max-w-xs  bg-teal-50 border border-gray-100 rounded-lg shadow-lg dark:bg-gray-900 backdrop-blur-lg dark:border-gray-900"
+              className=" relative max-w-sm sm:max-w-md  lg:max-w-md  xl:max-w-sm custom:max-w-xs  bg-teal-50 border border-gray-100 rounded-lg shadow-lg dark:bg-gray-900 backdrop-blur-lg dark:border-gray-900"
             >
               <a
                 target="_blank"

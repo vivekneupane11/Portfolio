@@ -37,7 +37,7 @@ export default function ButtonLinks() {
             type="button"
             className={clsx(
 
-              "  justify-between  	capitalize w-[270px] px-4 py-3  mt-1  shadow-sm 	 hover:bg-emerald-600/100 hover:text-gray-100  focus:outline-none  font-medium rounded-md    text-center inline-flex items-center  dark:bg-gray-900 backdrop-blur-lg dark:border-gray-700  dark:hover:bg-gray-700  mb-1 text-lg",
+              "  justify-between  	capitalize w-[270px] px-4 py-3  mt-2  shadow-lg  shadow-emerald-600/30 	 hover:bg-emerald-600/100 hover:text-gray-100  focus:outline-none  font-medium rounded-md    text-center inline-flex items-center  dark:bg-gray-900 backdrop-blur-lg dark:border-gray-700  dark:hover:bg-gray-700  mb-1 text-lg",
               {
                 "bg-emerald-600": isActive,
                 "text-gray-100": isActive,

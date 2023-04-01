@@ -19,7 +19,7 @@ export default function DarkLightMode() {
         <button
           type="button"
           onClick={() => setTheme("light")}
-          className= "  mt-4 text-emerald-600/100 bg-teal-50 drop-shadow-md	 hover:bg-emerald-600/100 hover:text-gray-100  focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-md text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-600 dark:bg-gray-900 backdrop-blur-lg dark:border-gray-900 dark:hover:text-gray-100  dark:hover:bg-gray-700  mr-2 mb-2"
+          className= "  mt-4 text-emerald-600/100 shadow-emerald-600/40 bg-teal-50 shadow-lg	 hover:bg-emerald-600/100 hover:text-gray-100  focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-md text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-600 dark:bg-gray-900 backdrop-blur-lg dark:border-gray-900 dark:hover:text-gray-100  dark:hover:bg-gray-700  mr-2 mb-2"
         >
           <svg
             className="w-6 h-6 mr-3"
@@ -43,7 +43,7 @@ export default function DarkLightMode() {
         <button
           onClick={() => setTheme("dark")}
           type="button"
-          className= "mt-4 text-emerald-600/100 bg-white drop-shadow-md	 hover:bg-emerald-600/100 hover:text-gray-100  focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-md text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-600 dark:bg-gray-900 backdrop-blur-lg dark:border-gray-900  dark:hover:bg-gray-700 mr-2 mb-2"
+          className= "mt-4 text-emerald-600/100 bg-white shadow-md shadow-emerald-600/40	 hover:bg-emerald-600/100 hover:text-gray-100  focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-md text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-600 dark:bg-gray-900 backdrop-blur-lg dark:border-gray-900  dark:hover:bg-gray-700 mr-2 mb-2"
         >
           <svg
             className="w-6 h-6 mr-3"

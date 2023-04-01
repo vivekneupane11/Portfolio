@@ -16,11 +16,6 @@ export default function MotionWrapper({
       key={pathname}
       animate="animate"
       exit="exit"
-      onAnimationComplete={()=>window.scroll({
-        top:0,
-        left:0,
-        behavior:'smooth'
-      })}
       variants={{
         initial: {
           opacity: 0,
