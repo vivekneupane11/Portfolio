@@ -7,7 +7,7 @@ export async function generateMetadata(): Promise<Metadata> {
     title: "Contact | Vivek Neupane",
     description:"Greetings! I am a highly skilled and experienced Developer, Programmer, and CTO, with a passion for creating innovative and cutting-edge technology solutions. With a deep understanding of the latest industry trends and a keen eye for detail, I am able to deliver elegant and efficient software solutions that meet the needs of my clients and exceed their expectations. As a natural leader and team player, I thrive in dynamic and fast-paced environments, and am able to guide my teams to success even in the face of the most challenging of obstacles. With a track record of delivering exceptional results and a commitment to staying ahead of the curve, I am confident that I have the skills and experience necessary to help drive your organization to new heights of success. So if you're looking for a cool, professional, and highly skilled Developer, Programmer, and CTO, look no further than me!",
     openGraph: {
-      images: ['https://scontent.fmey1-1.fna.fbcdn.net/v/t39.30808-6/245103881_1230779857426799_76874542391346926_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=a26aad&_nc_ohc=s_YUrfERfXsAX-rjuhL&_nc_oc=AQnuoTNgZAEnDFlkz6130y4sSVjbrCgxp57DuJC48d1ePB1De58OjxoY-z_yRDsnQ_o&_nc_ht=scontent.fmey1-1.fna&oh=00_AfCLgrOYeOndHHDPbL5jrezfDjdA8XyFM_PB33PfnUsgZw&oe=6428E049'],
+      images: ['https://images.pexels.com/photos/34153/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'],
     },
   };
 }
