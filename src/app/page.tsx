@@ -5,6 +5,25 @@ import apple from "../../public/apple.png";
 import Image from "next/image";
 import AnimationHeader from "./components/AnimationHeader";
 import { Metadata } from "next";
+import jhigubazarApp from '../../public/300x0w.jpeg'
+import mcqApp from '../../public/183328468_293529595710029_1858085609834053954_n.jpeg'
+
+import medicosApp from '../../public/216917365_558764955492928_7614666269404862121_n.jpeg'
+
+import medicalLocker from '../../public/1642228604440.jpeg'
+
+import medicosWebsite from '../../public/download (1).jpeg'
+
+import jhiguWebsite from '../../public/download.jpeg'
+
+import histology from '../../public/maxresdefault.jpeg'
+
+import ecg from '../../public/rjl.medicos.ecg.png'
+import capkon from '../../public/1570188029925.jpeg'
+import saesha from '../../public/facebook.jpeg'
+import reactEditor from '../../public/featured-text-editor.webp'
+const images = [medicosApp,ecg,histology,jhigubazarApp,jhiguWebsite,medicosWebsite,capkon,mcqApp,reactEditor,medicalLocker,saesha]
+
 export async function generateMetadata(): Promise<Metadata> {
  
   return {
@@ -20,7 +39,7 @@ export default function Home() {
     <main className=" m-auto flex flex-col items-center  sm:items-center md:items-center xl:items-start   ">
 <AnimationHeader title="Projects" />
       <div className="m-auto flex justify-center sm:justify-center md:justify-center xl:justify-start flex-row gap-8 flex-wrap w-[95%] md:w-[100%] mt-5 md:mt-2 ">
-        {projects.map((e) => {
+        {projects.map((e,i) => {
           return (
             <div
               key={e.name}
@@ -31,25 +50,16 @@ export default function Home() {
                 href={e.demoLink ? e.demoLink : e.androidLink}
                 style={{ width: "100%", height: "200px" }}
               >
-                <img
+                <Image
                 loading="lazy"
                   className="rounded-lg h-[250px] custom:h-[200px]"
-                  src={e.thumbnail}
+                  src={images[i]}
                   style={{ objectFit: "cover",width: "100%" }}
-                  height="250px"
-                  width="200px"
+              
                   alt="avatar"
                 />
                 <section className="p-1 rounded-lg absolute top-[230px] custom:top-[180px] left-[42%]  bg-gray-100 hover:scale-125 dark:bg-gray-800 ">
-                  <img
-                  loading="lazy"
-                    className="rounded-lg h-[36px] w-[36px]  "
-                    src={e.logo}
-                    style={{ objectFit: "cover" }}
-                    height="36px"
-                    width={"36px"}
-                    alt="avatar"
-                  />
+              
                 </section>
               </a>
               <div className="p-5">
