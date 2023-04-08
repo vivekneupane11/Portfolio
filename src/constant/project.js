@@ -3,7 +3,7 @@ const projects = [
 {
     name:'Medicos PDF',
     description:"An app built on React Native loved by many users. My most downloaded  project/app",
-    androidLink:'https://play.google.com/store/apps/details?id=com.rjl.bookapp&hl=en&gl=US&pli=1',
+    androidLink:'https://medicos-pdf-web.vercel.app/',
     tools:['react-native','firebase'],
     iosLink:'https://apps.apple.com/ie/app/medicos-pdf/id1506558620',
 logo:'https://play-lh.googleusercontent.com/g5GanfEH-tDgbGkyoGJ2HQ3nU6uMU7t__m-qVBKxCD693NjgJKGHAfVVWUzoV_5ZPYG9=s96-rw',
@@ -50,9 +50,9 @@ thumbnail:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUhokY9OejNUPWU
 {
     name:'Medicos Website',
     description:"React website with high interaction and elegant UI. More than millions user activity daily.",
-    androidLink:'https://play.google.com/store/apps/details?id=com.rjl.bookapp&hl=en&gl=US&pli=1',
+    androidLink:'https://medicos-pdf-web.vercel.app/',
     tools:['react-native','firebase','react'],
-    iosLink:'https://apps.apple.com/ie/app/medicos-pdf/id1506558620',
+    iosLink:'https://medicos-pdf-web.vercel.app/',
 logo:'https://play-lh.googleusercontent.com/g5GanfEH-tDgbGkyoGJ2HQ3nU6uMU7t__m-qVBKxCD693NjgJKGHAfVVWUzoV_5ZPYG9=s96-rw',
     thumbnail:'https://is5-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/74/58/d8/7458d824-a820-dada-6b5d-b9b637ac9728/3f15d563-e135-463c-9a01-df7d2d516e02_3.png/643x0w.jpg'
 },
