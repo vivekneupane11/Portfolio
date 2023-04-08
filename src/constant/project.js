@@ -3,9 +3,10 @@ const projects = [
 {
     name:'Medicos PDF',
     description:"An app built on React Native loved by many users. My most downloaded  project/app",
-    androidLink:'https://medicos-pdf-web.vercel.app/',
+    androidLink:'https://play.google.com/store/apps/details?id=com.rjl.bookapp&hl=en&gl=US',
     tools:['react-native','firebase'],
     iosLink:'https://apps.apple.com/ie/app/medicos-pdf/id1506558620',
+        webLink:'https://medicos-pdf-qr72.vercel.app/',
 logo:'https://play-lh.googleusercontent.com/g5GanfEH-tDgbGkyoGJ2HQ3nU6uMU7t__m-qVBKxCD693NjgJKGHAfVVWUzoV_5ZPYG9=s96-rw',
     thumbnail:'https://scontent.fmey1-1.fna.fbcdn.net/v/t39.30808-6/218758543_562243375145086_8691660892141230295_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=a26aad&_nc_ohc=kCqxcpG2JLMAX-KnEru&_nc_ht=scontent.fmey1-1.fna&oh=00_AfDNXmKOdtzDL3DPIJHBcHLCvJNwvMGgiEPfuJ8yXlEu-g&oe=642901BF'
 },
@@ -36,6 +37,16 @@ logo:'https://play-lh.googleusercontent.com/g5GanfEH-tDgbGkyoGJ2HQ3nU6uMU7t__m-q
     logo:'https://play-lh.googleusercontent.com/cND4wKnc8pia_avl7hD9lWaSeLeqs8VSYbWvlPhT5PqnC2n6ql-nFmod59nJliWVduY=s96-rw',
     thumbnail:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUhokY9OejNUPWU59keGKkvYTN2zrR_MsSanAAT7hf5zyFYlZYktJ1V8TIOlYPfWjzYx4&usqp=CAU' 
 },
+{
+    name:'Medicos Website',
+    description:"React website with high interaction and elegant UI. More than millions user activity daily.",
+    androidLink:'https://medicos-pdf-qr72.vercel.app/',
+    tools:['react-native','firebase','react'],
+    iosLink:'https://medicos-pdf-qr72.vercel.app/',
+    webLink:'https://medicos-pdf-qr72.vercel.app/',
+logo:'https://play-lh.googleusercontent.com/g5GanfEH-tDgbGkyoGJ2HQ3nU6uMU7t__m-qVBKxCD693NjgJKGHAfVVWUzoV_5ZPYG9=s96-rw',
+    thumbnail:'https://is5-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/74/58/d8/7458d824-a820-dada-6b5d-b9b637ac9728/3f15d563-e135-463c-9a01-df7d2d516e02_3.png/643x0w.jpg'
+},
 
 {
     name:'Jhigubazar Website',
@@ -47,16 +58,7 @@ webLink:'https://www.jhigubazar.com/session/language',
 logo:'https://play-lh.googleusercontent.com/cND4wKnc8pia_avl7hD9lWaSeLeqs8VSYbWvlPhT5PqnC2n6ql-nFmod59nJliWVduY=s96-rw',
 thumbnail:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUhokY9OejNUPWU59keGKkvYTN2zrR_MsSanAAT7hf5zyFYlZYktJ1V8TIOlYPfWjzYx4&usqp=CAU' 
 },
-{
-    name:'Medicos Website',
-    description:"React website with high interaction and elegant UI. More than millions user activity daily.",
-    androidLink:'https://medicos-pdf-qr72.vercel.app/',
-    tools:['react-native','firebase','react'],
-    iosLink:'https://medicos-pdf-qr72.vercel.app/',
-    webLink:'https://medicos-pdf-qr72.vercel.app/',
-logo:'https://play-lh.googleusercontent.com/g5GanfEH-tDgbGkyoGJ2HQ3nU6uMU7t__m-qVBKxCD693NjgJKGHAfVVWUzoV_5ZPYG9=s96-rw',
-    thumbnail:'https://is5-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/74/58/d8/7458d824-a820-dada-6b5d-b9b637ac9728/3f15d563-e135-463c-9a01-df7d2d516e02_3.png/643x0w.jpg'
-},
+
 {
     name:'Capkon',
 description:"A website for a corporate company. This project has high end security.",
