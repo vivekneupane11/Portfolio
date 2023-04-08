@@ -79,11 +79,11 @@ thumbnail:'https://i.ytimg.com/vi/rH8VBJWechc/hqdefault.jpg'
 {
     name:'React Text Editor',
 description:"My personal favorite. Web app to edit , highlight and add text. Not just a normal editor.",
-androidLink:'https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6937706996267659265',
+androidLink:'https://react-editor-kappa.vercel.app/',
 tools:['js','mongodb','react-native','react'],
-iosLink:'https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6937706996267659265',
-webLink:'https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6937706996267659265',
-demoLink:'https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6937706996267659265',
+iosLink:'https://react-editor-kappa.vercel.app/',
+webLink:'https://react-editor-kappa.vercel.app/',
+demoLink:'https://react-editor-kappa.vercel.app/',
 logo:'https://cdn.worldvectorlogo.com/logos/react-1.svg',
 thumbnail:'https://i0.wp.com/ugtechmag.com/wp-content/uploads/2019/02/featured-text-editor.png?fit=768%2C384&ssl=1' 
 },
