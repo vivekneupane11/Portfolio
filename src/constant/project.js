@@ -39,13 +39,14 @@ logo:'https://play-lh.googleusercontent.com/g5GanfEH-tDgbGkyoGJ2HQ3nU6uMU7t__m-q
 },
 {
     name:'Medicos Website',
-    description:"React website with high interaction and elegant UI. More than millions user activity daily.",
+    description:"Medicos website with high interaction and elegant UI. More than millions user activity daily.",
     androidLink:'https://medicos-pdf-qr72.vercel.app/',
     tools:['react-native','firebase','react'],
     iosLink:'https://medicos-pdf-qr72.vercel.app/',
     webLink:'https://medicos-pdf-qr72.vercel.app/',
 logo:'https://play-lh.googleusercontent.com/g5GanfEH-tDgbGkyoGJ2HQ3nU6uMU7t__m-qVBKxCD693NjgJKGHAfVVWUzoV_5ZPYG9=s96-rw',
-    thumbnail:'https://is5-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/74/58/d8/7458d824-a820-dada-6b5d-b9b637ac9728/3f15d563-e135-463c-9a01-df7d2d516e02_3.png/643x0w.jpg'
+thumbnail:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUhokY9OejNUPWU59keGKkvYTN2zrR_MsSanAAT7hf5zyFYlZYktJ1V8TIOlYPfWjzYx4&usqp=CAU' 
+
 },
 
 {
@@ -56,7 +57,8 @@ tools:['js','node-js','mongodb'],
 iosLink:'https://www.jhigubazar.com/session/language',
 webLink:'https://www.jhigubazar.com/session/language',
 logo:'https://play-lh.googleusercontent.com/cND4wKnc8pia_avl7hD9lWaSeLeqs8VSYbWvlPhT5PqnC2n6ql-nFmod59nJliWVduY=s96-rw',
-thumbnail:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUhokY9OejNUPWU59keGKkvYTN2zrR_MsSanAAT7hf5zyFYlZYktJ1V8TIOlYPfWjzYx4&usqp=CAU' 
+thumbnail:'https://is5-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/74/58/d8/7458d824-a820-dada-6b5d-b9b637ac9728/3f15d563-e135-463c-9a01-df7d2d516e02_3.png/643x0w.jpg'
+
 },
 
 {
