@@ -21,7 +21,7 @@ import histology from '../../public/maxresdefault.jpeg'
 import ecg from '../../public/rjl.medicos.ecg.png'
 import capkon from '../../public/1570188029925.jpeg'
 import saesha from '../../public/facebook.jpeg'
-import reactEditor from '../../public/featured-text-editor.webp'
+import reactEditor from '../../public/featured-text-editor.png'
 const images = [medicosApp,ecg,histology,jhigubazarApp,medicosWebsite,jhiguWebsite,capkon,mcqApp,reactEditor,medicalLocker,saesha]
 
 export async function generateMetadata(): Promise<Metadata> {
