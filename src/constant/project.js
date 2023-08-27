@@ -60,7 +60,16 @@ logo:'https://play-lh.googleusercontent.com/cND4wKnc8pia_avl7hD9lWaSeLeqs8VSYbWv
 thumbnail:'https://is5-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/74/58/d8/7458d824-a820-dada-6b5d-b9b637ac9728/3f15d563-e135-463c-9a01-df7d2d516e02_3.png/643x0w.jpg'
 
 },
-
+{
+    name:'Lets Play Quiz',
+description:"A quiz app created in NextJS and ShadCDN ui.",
+androidLink:'https://quiz-ky8n2860x-vivekneupane11.vercel.app/',
+tools:['js','wordpress','drupal'],
+iosLink:'https://quiz-ky8n2860x-vivekneupane11.vercel.app/',
+webLink:'https://quiz-ky8n2860x-vivekneupane11.vercel.app/',
+logo:'https://upload.wikimedia.org/wikipedia/en/7/7a/Trivia_Crack_logo.png',
+thumbnail:'https://i9.ytimg.com/vi/T2ebn7TN9mw/mqdefault.jpg?v=64bcb648&sqp=COz3rKcG&rs=AOn4CLCedz6vrHg-R2iupFn9ejF1kwJG1g' 
+},
 {
     name:'Capkon',
 description:"A website for a corporate company. This project has high end security.",
