@@ -1,28 +1,29 @@
-import projects from "../constant/project";
-import web from "../../public/web.png";
+import { Metadata } from "next";
+import Image from "next/image";
+import mcqApp from '../../public/183328468_293529595710029_1858085609834053954_n.jpeg';
+import jhigubazarApp from '../../public/300x0w.jpeg';
 import android from "../../public/android.png";
 import apple from "../../public/apple.png";
-import Image from "next/image";
+import web from "../../public/web.png";
+import projects from "../constant/project";
 import AnimationHeader from "./components/AnimationHeader";
-import { Metadata } from "next";
-import jhigubazarApp from '../../public/300x0w.jpeg'
-import mcqApp from '../../public/183328468_293529595710029_1858085609834053954_n.jpeg'
 
-import medicosApp from '../../public/216917365_558764955492928_7614666269404862121_n.jpeg'
+import medicosApp from '../../public/216917365_558764955492928_7614666269404862121_n.jpeg';
 
-import medicalLocker from '../../public/1642228604440.jpeg'
+import medicalLocker from '../../public/1642228604440.jpeg';
 
-import medicosWebsite from '../../public/download (1).jpeg'
+import medicosWebsite from '../../public/download (1).jpeg';
 
-import jhiguWebsite from '../../public/download.jpeg'
+import jhiguWebsite from '../../public/download.jpeg';
 
-import histology from '../../public/maxresdefault.jpeg'
+import histology from '../../public/maxresdefault.jpeg';
 
-import ecg from '../../public/rjl.medicos.ecg.png'
-import capkon from '../../public/1570188029925.jpeg'
-import saesha from '../../public/facebook.jpeg'
-import reactEditor from '../../public/featured-text-editor.png'
-const images = [medicosApp,ecg,histology,jhigubazarApp,medicosWebsite,jhiguWebsite,capkon,mcqApp,reactEditor,medicalLocker,saesha]
+import capkon from '../../public/1570188029925.jpeg';
+import saesha from '../../public/facebook.jpeg';
+import reactEditor from '../../public/featured-text-editor.png';
+import quiz from '../../public/mqdefault.jpg';
+import ecg from '../../public/rjl.medicos.ecg.png';
+const images = [medicosApp,ecg,histology,jhigubazarApp,medicosWebsite,jhiguWebsite,quiz,capkon,mcqApp,reactEditor,medicalLocker,saesha]
 
 export async function generateMetadata(): Promise<Metadata> {
  
@@ -53,9 +54,10 @@ export default function Home() {
                 <Image
                 loading="lazy"
                   className="rounded-lg h-[250px] custom:h-[200px]"
-                  src={images[i]}
+                  src={ images[i] ? images[i] : e.thumbnail}
                   style={{ objectFit: "cover",width: "100%" }}
-              
+             
+
                   alt="avatar"
                 />
                 <section className="p-1 rounded-lg absolute top-[230px] custom:top-[180px] left-[42%]  bg-gray-100 hover:scale-125 dark:bg-gray-800 ">
